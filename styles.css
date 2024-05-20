@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+/*Contenedor para la navbar*/
+.container {
+  width: 100%;
+  height: 100%;
+  padding-left: 136px;
+  padding-right: 136px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.header {
+  width: 1440px;
+  padding: 32px 64px;
+  background: #d2232a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo img {
+  width: 63px;
+  height: 39px;
+}
+
+.nav {
+  width: 594px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+}
+
+.nav-item {
+  width: 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.nav-icon::before {
+  content: "";
+  width: 24px;
+  height: 25.34px;
+  position: absolute;
+  background: #fbfbfb;
+}
+
+.nav-text {
+  color: #fbfbfb;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.profile-icon {
+  flex: 1 1 0;
+  height: 39px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-icon-inner {
+  width: 46.67px;
+  height: 46.67px;
+  position: absolute;
+  background: #fbfbfb;
+}
+
+
+/*Sección para la barra de busqueda*/
+.search-section {
+  align-self: stretch;
+  height: 198px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.search-title {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  word-wrap: break-word;
+}
+
+.search-bar {
+  align-self: stretch;
+  padding: 16px 24px;
+  background: #cfcfce;
+  border-radius: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.search-icon::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background: #fbfbfb;
+}
+
+.search-text {
+  color: #fbfbfb;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+
+/*Sección de Contenido*/
+.content-section {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* En esta parte usamos un comando para establecer una gradiente para este elemento.*/
+.content-item {
+  width: 380px;
+  height: 171px;
+  padding: 32px 24px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.content-text {
+  flex: 1 1 0;
+  text-align: center;
+  color: #fbfbfb;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+/*Linea de separación Última Sección*/
+.latest-section {
+  align-self: stretch;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+
+/*En este apartado estan el elemento padre, que en realidad so varias "cajas" con contenido*/
+.latest-title {
+  color: black;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 38px;
+  word-wrap: break-word;
+}
+
+.latest-items {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-item {
+  width: 161px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.latest-item img {
+  width: 161px;
+  height: 202px;
+  object-fit: cover;
+}
+
+.latest-details {
+  flex: 1 1 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.latest-tag {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.latest-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.latest-title {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.latest-description {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}

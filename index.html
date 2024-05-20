@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Apuntes UDP</title>
+  </head>
+  <body>
+    <!--Seccion NavBar-->
+    <!--Contenedor que tiene la navbar y sus distintos elementos como el logo de la U. y los íconos-->
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="UDP" />
+        </div>
+        <div class="nav">
+          <div class="nav-item">
+            <div class="nav-icon"></div>
+            <div class="nav-text">Home</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-icon"></div>
+            <div class="nav-text">Apuntes</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-icon"></div>
+            <div class="nav-text">Lecturas</div>
+          </div>
+        </div>
+        <div class="profile-icon">
+          <div class="profile-icon-inner"></div>
+        </div>
+      </div>
+    <!--Seccion NavBar-->
+
+<!--Barra de Busqueda-->
+<!--Implementamos una barra de busqueda, usando la misma lógica del header, pero mas contenido como una caja agregandole dimensiones-->
+      <div class="search-section">
+        <div class="search-title">¿Qué estas buscando?</div>
+        <div class="search-bar">
+          <div class="search-icon"></div>
+          <div class="search-text">Buscar...</div>
+        </div>
+      </div>
+<!--Barra de Busqueda-->
+
+<!--Sección de Contenido-->
+<!--Creamos una caja para usarla en las tres secciones, creamos una caja padre y despues la repetimos 2 veces-->
+      <div class="content-section">
+        <div class="content-item">
+          <div class="content-text">Apuntes</div>
+        </div>
+        <div class="content-item">
+          <div class="content-text">Lecturas</div>
+        </div>
+        <div class="content-item">
+          <div class="content-text">Materias</div>
+        </div>
+      </div>
+<!--Sección de Contenido-->
+
+<!--Último subido-->
+<!--Esto es básicamente la división de los contenidos con las publicaciones-->
+      <div class="latest-section">
+        <div class="latest-title">Lo último subido</div>
+      </div>
+<!--Ultimo subido-->
+
+<!--Elementos Subidos-->
+<!--En esta sección, tuvimos que crear un elemento padre con las dimensiones del contenido, de esta forma, al tener uno, podemos copiar y pegarlo en el html las veces que necesitemos, cambiadole los textos-->
+      <div class="latest-items">
+        <div class="latest-item">
+          <img src="Apuntes1" />
+          <div class="latest-details">
+            <div class="latest-tag">Apuntes</div>
+            <div class="latest-info">
+              <div class="latest-title">Guerra Fría</div>
+              <div class="latest-description">Resumen solemne II</div>
+            </div>
+          </div>
+        </div>
+        <div class="latest-item">
+          <img src="Apuntes2" />
+          <div class="latest-details">
+            <div class="latest-tag">Apuntes</div>
+            <div class="latest-info">
+              <div class="latest-title">Historia antigua</div>
+              <div class="latest-description">
+                Resumen y biografía de personajes históricos
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="latest-item">
+          <img src="Lectura1" />
+          <div class="latest-details">
+            <div class="latest-tag">Lecturas</div>
+            <div class="latest-info">
+              <div class="latest-title">El sentido de la historia</div>
+              <div class="latest-description">Karl Lowith, PDF</div>
+            </div>
+          </div>
+        </div>
+        <div class="latest-item">
+          <img src="Apuntes3" />
+          <div class="latest-details">
+            <div class="latest-tag">Apuntes</div>
+            <div class="latest-info">
+              <div class="latest-title">La antigua Grecia</div>
+              <div class="latest-description">
+                Resumen de “La antigua Grecia” de Pomeroy. Capítulos V, VI y VII
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="latest-item">
+          <img src="Lectura2" />
+          <div class="latest-details">
+            <div class="latest-tag">Lecturas</div>
+            <div class="latest-info">
+              <div class="latest-title">Nacido de la tierra</div>
+              <div class="latest-description">Loraux Nicole, PDF</div>
+            </div>
+          </div>
+        </div>
+        <div class="latest-item">
+          <img src="Apuntes4" />
+          <div class="latest-details">
+            <div class="latest-tag">Apuntes</div>
+            <div class="latest-info">
+              <div class="latest-title">América S.XIX</div>
+              <div class="latest-description">
+                Conceptos y artículos destacados para solemne II
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Elementos Subidos-->
+  </body>
+</html>
